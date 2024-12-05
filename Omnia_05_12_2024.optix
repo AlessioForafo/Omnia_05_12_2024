@@ -105,16 +105,24 @@ Project:
    Uri: 'urn:FTOptix:OPCUAServer:Net'
    Module: FTOptix.OPCUAServer.Net
    Version: 1.1
+  27:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 6.0
+  28:
+   Uri: 'urn:FTOptix:Alarm:Net'
+   Module: FTOptix.Alarm.Net
+   Version: 1.2
  Statistics:
-  TotalNodeCount: 1957
-  Objects: 303
-  ObjectTypes: 6
-  Variables: 1621
+  TotalNodeCount: 2016
+  Objects: 318
+  ObjectTypes: 7
+  Variables: 1662
   VariableTypes: 0
   DataTypes: 0
-  Methods: 27
-  References: 39
+  Methods: 29
+  References: 83
   ReferenceTypes: 0
-  Files: 27
+  Files: 28
  Nodes:
  - File: Nodes/Omnia_05_12_2024.yaml

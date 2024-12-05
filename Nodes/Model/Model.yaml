@@ -3,3 +3,15 @@ Id: g=d74e0308cccafd24cfd01009df948162
 Type: ModelCategoryFolder
 Children:
 - File: VariabiliRicetta/VariabiliRicetta.yaml
+- Name: Motor
+  Id: g=97b0e0c758d1f04f38383d2536ec18cd
+  Supertype: BaseObjectType
+  Children:
+  - Name: Variable1
+    Id: g=53a0b80438c42a1f4d8f86283b15a801
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable2
+    Id: g=ba46f32ee813388a6bd7fd254196d4cc
+    Type: BaseDataVariableType
+    DataType: Int32

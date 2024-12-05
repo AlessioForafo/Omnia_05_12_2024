@@ -92,3 +92,16 @@ Children:
   - Class: Reference
     Target: ns=2;i=98
     Direction: Forward
+- Name: DesignTimeNetLogic1
+  Id: g=8e4c94fa665da099fc77eba66e389cb9
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=93d87d2ccbb1171502f9ba6edc2ad6f5
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: Method1
+    Id: g=f8646240ccafa3c006740d5c46f989c4
+- File: MyNetLogics/MyNetLogics.yaml

@@ -1,0 +1,7 @@
+Name: MyNetLogics
+Id: g=3e031cdf7468b4d4e71a528a1a45fbca
+Type: FolderType
+Children:
+- Name: RuntimeNetLogic1
+  Id: g=b7b47f0997a12795e595a114d2988a63
+  Type: NetLogic

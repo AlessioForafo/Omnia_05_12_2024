@@ -13,6 +13,7 @@ using FTOptix.HMIProject;
 using FTOptix.CODESYS;
 using FTOptix.CommunicationDriver;
 using FTOptix.OPCUAServer;
+using FTOptix.Alarm;
 #endregion
 
 public class BackupAndRestoreTagValues : BaseNetLogic

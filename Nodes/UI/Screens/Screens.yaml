@@ -3184,6 +3184,175 @@ Children:
   Id: g=eec93d053273eeda34cff0a0b0c9fe9d
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: MyScreenLogic
+    Id: g=1b77c5db47dfda1ca388e120e6c6b30c
+    Type: NetLogic
+  - Name: Rectangle1
+    Id: g=5e0a0c17bcd16196f17611e4b7f423b7
+    Type: Rectangle
+    Children:
+    - Name: BorderThickness
+      Id: g=a9a7924e96bbb69877a4b7470662bee6
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: Width
+      Id: g=c2c3fba55c1fb82d4b4c086bb5ddbdb9
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 280.0
+    - Name: Height
+      Id: g=dae74e96ed497aa31e25f787936f1099
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 140.0
+    - Name: LeftMargin
+      Id: g=3bbb8dc090c046c4922c4c58a4674a7c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: TopMargin
+      Id: g=4e8bb3a012fe595259817a27ff7b314f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: FillColor
+      Id: g=e5bece048b8489b91abb67e0a8609021
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#d3d3d3"
+    - Name: HitTestVisible
+      Id: g=7a03e30e4a23f32e70c46426396be762
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: RuntimeNetLogic2
+      Id: g=9555ddb65c797885b94222b9ab339766
+      Type: NetLogic
+      Children:
+      - Class: Method
+        Name: ChangeColor
+        Id: g=88d9eec2dd76682e87a796306b1751c6
+    - Name: MouseDownEventHandler1
+      Id: g=3e239fd643eeb2e477950d10ee692e9c
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=70319c8f6467a9c4441f092a7a179dae
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
+      - Name: MethodsToCall
+        Id: g=d0d470278babdee69304ca81333bc0cc
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=19cd784a15f888c3246f4432ea228053
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=01ac4d2761cc6d48b2559e1dd4ca21e1
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=896d4739570e9e936e162eb815e5c257
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=967ee9f30954b8784e0608a75dcd7f54
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../RuntimeNetLogic2@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=f016520dd2eb218fc354c66701cfca61
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=c61e95e5f8a62c7ca2a62d0b10c813cc
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ChangeColor"
+      - Name: EventArguments
+        Id: g=dfb5812089868acf64fb31d3d13bdafe
+        Type: MouseDownEvent
+        Children:
+        - Name: EventId
+          Id: g=d62727cc1a4058b5534473961ce1719c
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=a89340e68c1375d08bbd986d7e2eff55
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=a0cafc1f6e2b7c7a54c0bd91b8b7b5e8
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=ed69f9685c8f38bcc6f2871667c75099
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=d7e46f3fa185e332bb661f9868430964
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=c0c0e50c38f294f0c713c4352a68a18c
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=fa595d74bc9fabb0b81df4b795c45105
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=6a6d6f675fe4326988a6b7880f303d59
+          Type: PropertyType
+          DataType: UInt16
+  - Name: LED1
+    Id: g=c10966437a6534534929e23f64434113
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=b9367524962cdf49990dcf5f5ad37056
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Id: g=14ef745f8926095126549e9a2ac23d2f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 130.0
+    - Name: Height
+      Id: g=83b862200b2ca312c90390c4d4e11bac
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 140.0
+    - Name: LeftMargin
+      Id: g=be7751576af232c2cc102b78d3172c6f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 610.0
+    - Name: TopMargin
+      Id: g=8edfc62021a20159a4c8173b41ae2d8d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
 - Name: Screen3
   Id: g=09f10161661c04722504d472a1e328c3
   Supertype: Screen
