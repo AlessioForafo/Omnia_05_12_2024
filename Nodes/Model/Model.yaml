@@ -1,2 +1,5 @@
 Name: Model
+Id: g=d74e0308cccafd24cfd01009df948162
 Type: ModelCategoryFolder
+Children:
+- File: VariabiliRicetta/VariabiliRicetta.yaml

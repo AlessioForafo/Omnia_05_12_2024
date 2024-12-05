@@ -1,51 +1,64 @@
 Name: Omnia_05_12_2024
+Id: g=4a7815dbdecefa320960f9559667a40a
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=3ff77b90606eba9cd3358739d7a5fc65
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=b4fa0a865bb2e4f0eda3cac509c9595e
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=ea8e1597accc6c39375f53078e6aea8c
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=ef4cd2fc9b83c7227f5f9da689750386
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=60b8d2aecb14e8ac15c225143419f5ea
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Omnia_05_12_2024/Security/Users"
     Children:
     - Name: Kind
+      Id: g=898e0263443716decd59e001fcebc9b5
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: PasswordPolicy
+  Id: g=d059ddc592b928a4f257c50728fb07dd
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=c1d47652053d68a49348eadfa48a53a3
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: EnforcePasswordHistory
+    Id: g=c7dd3fae63d8f40a0b36c32183556ef7
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=923b61ea07914350fa6beca7d7d18915
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: MinimumPasswordLength
+    Id: g=0088c4e9fc1aa2e20e641d8a30c0a29f
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=4f0e3842f8d0d471e0b1fd92460ee842
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
@@ -63,3 +76,14 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Id: g=12da92bb8079e134b9315541a97f0881
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/Omnia_05_12_2024/Recipes/RecipeSchema1/EditModel"
+  Children:
+  - Name: Kind
+    Id: g=fb9aaf56ffc89e0a6994667d2cea0eb3
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/Omnia_05_12_2024/Recipes/RecipeSchema1/EditModel"

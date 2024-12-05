@@ -1,2 +1,1428 @@
 Name: DataStores
+Id: g=c5670b1becf9b7d0a0e6a73728bcbbf5
 Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=aeead367edda7a0cd379b28ffd33c46d
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=f9dca632f279c2299e95f584ff332ddc
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeSchema1
+      Id: g=4fc9a591ba044a560bac5fe574398b43
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=d46c4465fea01cbbcba3e8ceacc960b2
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Id: g=f3c73d40191c79fec78932204b41ea85
+          Type: StoreColumn
+          DataType: String
+        - Name: /Variable1
+          Id: g=54bdac5ecc6d79c4d0ae43970f69687e
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Variable2
+          Id: g=5d9cae7cb9e1e09e7a5cf085f2f4085a
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Variable3
+          Id: g=9f84513c8894d44cdfa5eb2606604b35
+          Type: StoreColumn
+          DataType: String
+  - Class: Reference
+    Target: ns=18;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=8bf5849f9de7c8194db7b0ada29181b5
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Id: g=9cb4b000bea081c5c692d8817a4bead5
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Id: g=396187fccc2672fc8aa49c8794b7dad4
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Id: g=2167cb8086fb99a5f383dd2a73fe4120
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+  - Name: Filename
+    Id: g=fc9aa71e4f42244ce063ea5f657c79cc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DB_Ricette"
+- Name: RecipeController
+  Id: g=bf2ab96c1c4a5903e5b17c5c55baf25e
+  Type: NetLogic
+  Children:
+  - Name: Result
+    Id: g=316f15f11184e578b7637bf997a5bf0c
+    Type: BaseDataVariableType
+    DataType: Byte
+    AccessLevel: Read
+  - Name: Message
+    Id: g=01567a34daac544b47674062524dac21
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: LastAppliedRecipe
+    Id: g=f5614569894694c6f6b43605ef44f711
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: RecipeSchema
+    Id: g=d8fc2c637b2a5df1cc8706367380f94a
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=f986249e04e167b3c19d9eca7139c61e
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/RecipeSchema"
+    - Name: DynamicLink
+      Id: g=8d318674b8e7a5215591b9bd87354737
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../RecipeSchema@NodeId"
+      Children:
+      - Name: Mode
+        Id: g=837e6ee1c4a3b207dcd24cb6684f78db
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: CSVFile
+    Id: g=986ef2956a0335dbdc6a084eafffbea4
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+  - Name: CSVSeparator
+    Id: g=7a152e3a794cfee8335c745614f3f872
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Id: g=57b1c698f0ff6d4e8e9b6606120fbf50
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Class: Method
+    Name: Delete
+    Id: g=c41a98c45759a642dde2e43c76dccc4e
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=28692088d9ed3cad9f9362302b696cb3
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"RecipeName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: Export
+    Id: g=9bbf9e6517f5eb4c750fecd249a96a5c
+  - Class: Method
+    Name: Import
+    Id: g=66f32dc8537cadb9a65515ad682fb52a
+  - Class: Method
+    Name: ApplyFromDB
+    Id: g=0977f3acb235562d76720e25474e6110
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=0ef9653a0f3a5969b04598e2ac74dcfc
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"RecipeName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"ErrorPolicy","DataType":{"Id":40,"Namespace":15},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: ApplyFromEditModel
+    Id: g=ce7974c827cb2c336a9733e953076f86
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=9b4efd5e1d3642b76060c78b0d48a745
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"ErrorPolicy","DataType":{"Id":40,"Namespace":15},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: LoadFromPLC
+    Id: g=74f13d0a3f5ea79bb5c5efb675ccf2be
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=f991173b3a1cd560117d42a175eb3343
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"ErrorPolicy","DataType":{"Id":40,"Namespace":15},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: SaveToDB
+    Id: g=f238d250d9b9438960f57ac63ecd1cb2
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=86a821fe13d6d2f099450a72d59e1a2d
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"RecipeName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"ErrorPolicy","DataType":{"Id":40,"Namespace":15},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: SelectFromDB
+    Id: g=1a0284481f5d5d31bb9e4f1421f36694
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=9e26c357af243e8fa3b8c8e53ea296f4
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"RecipeName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"ErrorPolicy","DataType":{"Id":40,"Namespace":15},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: RecipeName
+    Id: g=f21d8d9e119027f73eea2002fa2a0877
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: ErrorPolicy
+    Id: g=2a484dbe829643daa14b83d26454b64b
+    Type: BaseDataVariableType
+    DataType: CopyErrorPolicy
+  - Name: ApplyFromDBTrigger
+    Id: g=6b0a82ad69fdb6bec9b67e308a63a66e
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ApplyFromEditModelTrigger
+    Id: g=9dbf83864e7ecd89d338179ee421e766
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: DeleteTrigger
+    Id: g=1dd6acfb8b57fc3b77891821b94901d0
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ExportTrigger
+    Id: g=fcde1b30468ecff5e10195ad1b561353
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ImportTrigger
+    Id: g=3078628839ae9fec72ab02ed50b0c730
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LoadFromPLCTrigger
+    Id: g=26e433d86a800b2ef93de6ebc88ebede
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SaveToDBTrigger
+    Id: g=e5dc2b55b9fb6b34c46871446ba6d006
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SelectFromDBTrigger
+    Id: g=0cc1c2a4c93c77c89b5d1a8c58b5d000
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ApplyFromDBTriggerTransitioned1
+    Id: g=e31dacaf41f4de266663785a44826aed
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Id: g=3fd586e0620abc5682923f61b5210a49
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Id: g=00f0db6b190bba5aea2a559ab8d0cc60
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Id: g=a8402c5abd34a2ca857b070685fffad1
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../ApplyFromDBTrigger"
+    - Name: VariableTransitionEventHandler1
+      Id: g=7b82dc3f07464910bed47f47b67205dc
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=fd9da4c30379b6e2dc9d3052e81bea2f
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Id: g=b801801b9bac27da977deea739fc5fbb
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=a535d0184d1b5e0079acd2835972840b
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=e8ebe5f42b5a35f1d38ae2ae23a2ca76
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=b308563737d9b40957622ec5d12ca1d0
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=c11180152151c93029e19c598c3b01f5
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../..@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=ebcdcd575638ef048e96c29a8808cce3
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=2969e593c0de4674f2d63d8ca7dfcce4
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ApplyFromDB"
+          - Name: InputArguments
+            Id: g=266408d7ce4d318b42e159031a48152c
+            Type: BaseObjectType
+            Children:
+            - Name: RecipeName
+              Id: g=016abfb30705201bc44e46d51249455b
+              Type: BaseDataVariableType
+              DataType: String
+              Children:
+              - Name: DynamicLink
+                Id: g=32569a3e64748478eb9f6abfabaf4824
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../RecipeName"
+                Children:
+                - Name: Mode
+                  Id: g=122e0832f1f9df41a516f82e33bf8b5c
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  Value: 2
+            - Name: ErrorPolicy
+              Id: g=00c831c7611f428d70c3eda68a00718a
+              Type: BaseDataVariableType
+              DataType: CopyErrorPolicy
+              Children:
+              - Name: DynamicLink
+                Id: g=fdde2d87542537a90a4cc6a54fc8a504
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../ErrorPolicy"
+                Children:
+                - Name: Mode
+                  Id: g=8b2ef1528a2ca034a163adb545fe12ad
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  Value: 2
+      - Name: EventArguments
+        Id: g=ac4422e3f8605b1a82e6170da6d04e87
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Id: g=3980ce0828e7f0e89f8f2f5eec8eb519
+          Type: BaseVariableType
+          DataType: NodeId
+        - Name: NewValue
+          Id: g=c7ecc4afa21e16793e46e489de813461
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Id: g=5e277f5df5d038f5344ec09a8bcaeb94
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Id: g=6ab224b9e7ea490cac6e13c9e8b77cec
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=fbfbbbccf9c35ad5c0a092e48c32169e
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=78f31204fd4bb0e92bc62646189dc098
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=c72c287f41208c373fe1bc6309ae8c90
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=73f1a00cdbe1fc340d097e000ffcaf00
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=1de2cb58507909d54e85dcc061e32767
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=89cdf17147321c59355412d804b748ab
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=6352e027fc6ff1bcc57d0b36b900a5bd
+          Type: PropertyType
+          DataType: UInt16
+  - Name: ApplyFromEditModelTriggerTransitioned1
+    Id: g=8f1de6666b552f5f6c9b8fc9d1c183ef
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Id: g=bf67fdd5a3913277c06276ce8f2a975e
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Id: g=85b8363a61508ee3987b0422add78c0e
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Id: g=483b92199a52446bf9dafec9e0cb997f
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../ApplyFromEditModelTrigger"
+    - Name: VariableTransitionEventHandler1
+      Id: g=322fc58c03e4e271ea862b78c520433e
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=1441a7b81a30e338d6743c3e3961408b
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Id: g=8e8ed5b8fe9dc6e7709bf514001df04b
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=333a26935b82e8d2b834860d0353312b
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=6def7ccfcf9c413e0381de86f2754683
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=7e6c81a6f649e2de063897dcfd326cc6
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=28157c9106e611e475e305d271349342
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../..@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=da14abff5967376a76509e50422dbc86
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=bfa3c0ff33c3612784109b9c1ebc2171
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ApplyFromEditModel"
+          - Name: InputArguments
+            Id: g=ad863db04b5bd265d44c979f6c3990c0
+            Type: BaseObjectType
+            Children:
+            - Name: ErrorPolicy
+              Id: g=b3b7880b4fbf111f65d34068f7c52d33
+              Type: BaseDataVariableType
+              DataType: CopyErrorPolicy
+              Children:
+              - Name: DynamicLink
+                Id: g=a5c236d228949ac609093cae4cc057d1
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../ErrorPolicy"
+                Children:
+                - Name: Mode
+                  Id: g=4237d93fbb86c745c729fdb2b55b1d56
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  Value: 2
+      - Name: EventArguments
+        Id: g=ca740f00f0f6f70cc4e2f1d08cee5b10
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Id: g=f240278b33a195bb77fedb33422958e0
+          Type: BaseVariableType
+          DataType: NodeId
+        - Name: NewValue
+          Id: g=83f8992dfc7b3adbcca9839b3bec88d6
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Id: g=3d61e1302c857a7746c49720011e0c8e
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Id: g=1898c861962f7076928d65bbd668ea5d
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=fde1ea7c2c4283ad457d0235c5f0e423
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=2d54d9e78647c6ea9846872808165ebf
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=1e35bc5104839b41fe96981c600630bd
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=d4552718e7563bbecd2aca057e63dca3
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=f067dcf6cade037b886ef9e9070ff67a
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=efa98c81a1ac8518052678ba4c2dd2e3
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=574ffd1466a2c58b76328b8bdaca7b09
+          Type: PropertyType
+          DataType: UInt16
+  - Name: DeleteTriggerTransitioned1
+    Id: g=6d1972b40a2e1f1af7766faedcb6571b
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Id: g=fe8ff020de5f5909f702ffc8b67d7fe4
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Id: g=40e288a8d10359f582920b103aaf430a
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Id: g=f0502ca9bba2448484c9c76731fcac4b
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../DeleteTrigger"
+    - Name: VariableTransitionEventHandler1
+      Id: g=064a12691fa917a61f03d05fbdcdfe7c
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=db81ab6c05a36e119ad7ccd827703cd0
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Id: g=a3d533f3718792c8423d1992ce578f42
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=30d6328b71d962735b09a9230646dd1f
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=56cc8ee217ef911f025fbe94d7b2ea41
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=639e991d4a93b7c3345f0c199cf18248
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=20e830e4aa46dc7c0e6359822f73d2b1
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../..@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=eab6f3db873d36e231190107d4acf7cd
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=5dc08f7217ec8246dc15db1e2d75f8b0
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Delete"
+          - Name: InputArguments
+            Id: g=78a023bf4ffbd7f420ca6d96ef323abe
+            Type: BaseObjectType
+            Children:
+            - Name: RecipeName
+              Id: g=bc2a86801735767e39eeab26aea82988
+              Type: BaseDataVariableType
+              DataType: String
+              Children:
+              - Name: DynamicLink
+                Id: g=759541ae2740ee162fa4f703ca51f658
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../RecipeName"
+                Children:
+                - Name: Mode
+                  Id: g=49f0081383663d4c93bf14c72269efba
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  Value: 2
+      - Name: EventArguments
+        Id: g=a73c1e527ba96d58bc7882b16ee562fa
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Id: g=17c2a7cfc37ea7c7b1b7d02cb7bae243
+          Type: BaseVariableType
+          DataType: NodeId
+        - Name: NewValue
+          Id: g=7ca5e3fe840a11f396d05a8a05dde0c4
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Id: g=e6bb25bf82384aae8b90d58a289e7549
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Id: g=11ae2b0d59b04232de7d6b15b2090abb
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=9af512bed37dbaa2822fb1d9d8006de7
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=12ca4c58bc339d3f83b95d58778e8f63
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=1077b54a2ee1b0aee32dab61bdf65a4f
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=69b2b67704b9727e167ac915eab27cfd
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=11507ea2a11c35542567878781f0f906
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=f72f2223a229ebf5ce07a3df2ad6f705
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=1130e12a553f13b7f173f4b0b0297598
+          Type: PropertyType
+          DataType: UInt16
+  - Name: ExportTriggerTransitioned1
+    Id: g=9edbc92a4b19516b7f899195740fd356
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Id: g=763df1943f1a946f887ebd50f8358848
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Id: g=72007b8d7f145821cef7d59a72578cf2
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Id: g=9cc4f6776415f724a275c07d0452a7bd
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../ExportTrigger"
+    - Name: VariableTransitionEventHandler1
+      Id: g=38672dc3c3b4bfc21bb038ee0941257a
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=4b4114dae906584f02415198869f5ede
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Id: g=edd2b26b44592b43f879c65715643c5f
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=65b993e5b34787325c1dcaeb5566259d
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=95dd1e244b7bf2d1a6b91b35f0980ff6
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=58badc0c7106589d0f616caa19263e0b
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=b9bd73dd9d54050ea697f3eaac899a30
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../..@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=004357d3d534a8606468f8c0a56a3240
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=dde583002ba7036f8c95b5de66129072
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Export"
+      - Name: EventArguments
+        Id: g=450d447cad64905215c469250389f858
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Id: g=85ddc4272bc48402c57eb3052a4caee8
+          Type: BaseVariableType
+          DataType: NodeId
+        - Name: NewValue
+          Id: g=bd039dd8cc69d58b521be7123766f97e
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Id: g=58e074a9eae6649872f715e91243c9de
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Id: g=33696880ad66572a0724324edf59aed3
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=7c1e3ac6d4a0938e43444c24c419350b
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=6dac443aed6f5eb6ab5b5a67ab888c2a
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=d2d038b992aaf475e3cf2139a953a76e
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=0ed0567e4091285a72f54cb59b9e7cc4
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=86cb18688b52af9de79ce94bf193d3e8
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=44bbc16cdce62d977b8d15d7157cc01a
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=5b8b1230ebe2e2975e312d7189b5afa9
+          Type: PropertyType
+          DataType: UInt16
+  - Name: ImportTriggerTransitioned1
+    Id: g=e9b5220c9b6a5ef6242c6111690a3b80
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Id: g=2c7b7147dbb236921e08d98a770e25cb
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Id: g=71fa6705414c91b2459483b3dbd98c19
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Id: g=f59796352b3bccc856cb20c69a840d13
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../ImportTrigger"
+    - Name: VariableTransitionEventHandler1
+      Id: g=5cbd372c3765107db3c458e2b764f680
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=de66e96b0773991c2b0f8a47c205a460
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Id: g=17e3abc121ea0c9d61e3bf10664d6248
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=03999288c13f14a4e17838ec559211de
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=4e2b4d977761df184d126ce35674ebc5
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=e44dc22c67869c5bbc4b8d1c62a04fa8
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=321e68468bba6448a382dd259d46a2aa
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../..@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=3f2c7da67a2f5436134ca9f466b4b4c3
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=ba5a7b2eb2122fa993a828847db467ee
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Import"
+      - Name: EventArguments
+        Id: g=5b26131da27004de0cdf00781fd6fad2
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Id: g=3e16090d744b39d87f8f93141cf0bb4c
+          Type: BaseVariableType
+          DataType: NodeId
+        - Name: NewValue
+          Id: g=a47dcc57a5ee3e1543d5dd6da4237349
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Id: g=b9765e17695b084439682fed491cb464
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Id: g=8b710aca4639a09015bbcb66feff1411
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=4b0fd64b5f7a60801514ec3897256e6d
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=00f2c9c8b86e86b7effb4b378aa83eb6
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=bd5bb34753534ff97a1794bd1dbf6ed9
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=440b756445bfc390399f940beed97469
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=b7f4c9351816538364ce387dfd724869
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=1f71ee74bf4fb5159f00245c37d13c64
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=7477a85efb4fce72b33d6187561c24bc
+          Type: PropertyType
+          DataType: UInt16
+  - Name: LoadFromPLCTriggerTransitioned1
+    Id: g=cf0aec1478a77f0a03a280323753a642
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Id: g=fbd745db85455d1b5157ad58dcb75521
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Id: g=9c865ee9e1cbaeb0fc24528d1df1a584
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Id: g=7c7cbf187ff07731c689024dc50ad5af
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../LoadFromPLCTrigger"
+    - Name: VariableTransitionEventHandler1
+      Id: g=c7a001a955870220a1422de7f973cfc1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=0874116bdf8f3f6f953f74ea3de0f29f
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Id: g=4816e837385a7ac48a0beadb15b43a86
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=20809ce27c544d3462b7384d8c592065
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=3665b027d0fa9642a68eda2bbbd2674f
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=f89e127b1ecb4e0b99459eaab9b2945d
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=c693f416b04cd05cec37669384f22379
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../..@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=91b166b5d75c6df5ae3e44db72ee809b
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=a2698a6d39e8d1caf6cbf1baddca1d6a
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "LoadFromPLC"
+          - Name: InputArguments
+            Id: g=66a1d97632e5d19c2dcb4fef26d0bf02
+            Type: BaseObjectType
+            Children:
+            - Name: ErrorPolicy
+              Id: g=75aa309f0690289eae41097f45e6a441
+              Type: BaseDataVariableType
+              DataType: CopyErrorPolicy
+              Children:
+              - Name: DynamicLink
+                Id: g=01d86217d0a17fa28d604231f8799a01
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../ErrorPolicy"
+                Children:
+                - Name: Mode
+                  Id: g=7be29aede12fedf4b274f5801f4dcb33
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  Value: 2
+      - Name: EventArguments
+        Id: g=62251e1053e27eab93526904a3304757
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Id: g=b1691118c7d7a6aa2044ae4774979731
+          Type: BaseVariableType
+          DataType: NodeId
+        - Name: NewValue
+          Id: g=2effb77edefbb3f238c959a3c0223109
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Id: g=7b065a314b2e8af8dd3535d57c833214
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Id: g=5d35468cfc6ef83bbf622ec68055dec1
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=6266cccc620e9c74d28fb7a0a6c7f7fd
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=c14d6333a1ec4e0b0e458e28956103ba
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=90c304557011d75d8f9af00d6e69f506
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=fc413a160c10b2bb4b7d557bf1c602d5
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=7943f9123d152a1b2505a735102ca946
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=d535e0766d312b791d9a0bdc21cdea26
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=545c1f88345ec3a70743437d87992c7b
+          Type: PropertyType
+          DataType: UInt16
+  - Name: SaveToDBTriggerTransitioned1
+    Id: g=bae71e0ca2cd1f5d976d567e595425bf
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Id: g=f41541abda10f45182f3cba969ca892a
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Id: g=76dde2e108dabe094ddbfdbf537e6267
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Id: g=b009f5171763493c69998f77bb01a050
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../SaveToDBTrigger"
+    - Name: VariableTransitionEventHandler1
+      Id: g=41c7a9be021d24a52aecb4e1f67093af
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=807d74a6bd4e99a8620a09dcd1b17790
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Id: g=6aab4634febf56c5415bf8be2ccf7524
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=84e32d08b510f581ff08fb0aa1a57d21
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=28063560905def706bb1b2dfa5a10a6c
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=fb4b6052e1984652b48da37813f83a10
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=360927b5f902cb947089ac4c1b1e3d96
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../..@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=110c94dc72fd17d9233593abd2f92d9b
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=d7bac3462fc808ad1b7ea74be20bb7b8
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "SaveToDB"
+          - Name: InputArguments
+            Id: g=533b16cab7004c46f2d04a0d6968ed24
+            Type: BaseObjectType
+            Children:
+            - Name: RecipeName
+              Id: g=4674c4cab16acdbbc99de07c06245dba
+              Type: BaseDataVariableType
+              DataType: String
+              Children:
+              - Name: DynamicLink
+                Id: g=f39e9520eadf3a498122fdc8f7e0d8a8
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../RecipeName"
+                Children:
+                - Name: Mode
+                  Id: g=ae682f8a39523f9219f6b635c44022fc
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  Value: 2
+            - Name: ErrorPolicy
+              Id: g=c0345b6e4e8cca83f27c141c97e13b91
+              Type: BaseDataVariableType
+              DataType: CopyErrorPolicy
+              Children:
+              - Name: DynamicLink
+                Id: g=94d7dbc73eb36e362b8ef9181fc3175f
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../ErrorPolicy"
+                Children:
+                - Name: Mode
+                  Id: g=fb262396c57984ba54f761c330299b56
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  Value: 2
+      - Name: EventArguments
+        Id: g=34ae56f2d50d457d92d006ac45d54e52
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Id: g=c7dbd8064a06258afa08c1133351e91c
+          Type: BaseVariableType
+          DataType: NodeId
+        - Name: NewValue
+          Id: g=12a2d86f7dcf0f3624ad1b12c302d176
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Id: g=ca1414dce82937976f0e601e9ae474a2
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Id: g=716df91e8f454da933befd088b208182
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=c0c78a468bffd415e2d04cb2b8f926a4
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=b046cc36998e13ad34c21b05b09bc652
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=33f4cebd808d36ce1a2400b08cc182c0
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=4ba29c12ce43e80713ed89bdeb850280
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=8b853fcb9ba8596df6a2662f07a85467
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=63565ba3d384886e5dc4536278e2e555
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=b9c306f3ecfc8b000d981612a0047c0a
+          Type: PropertyType
+          DataType: UInt16
+  - Name: SelectFromDBTriggerTransitioned1
+    Id: g=5c629759fe4750f86a4d2f23a39745b7
+    Type: VariableTransitionEventDispatcher
+    Children:
+    - Name: Value
+      Id: g=5018d199d47b2d1db9993e7b3d0e17db
+      Type: BaseVariableType
+      DataType: Double
+      Value: 1.0
+    - Name: Transition
+      Id: g=bb7af3b19664c90db3000a225b1bfdd2
+      Type: BaseVariableType
+      DataType: VariableTransition
+    - Name: VariableNodePath
+      Id: g=0f3fe2248eb27610a5a68d3fa2d1dec3
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: "../SelectFromDBTrigger"
+    - Name: VariableTransitionEventHandler1
+      Id: g=3babf2dc8ee27798bcba154e86824d30
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=afdfa1244dc369ceeed1ebe6960db913
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+      - Name: MethodsToCall
+        Id: g=6951a9a4d3ec9f3584f302d1c8a37a76
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=43a88d0cfbf7bbc15d19177d1baa32fe
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=fe050c6833d5de05e4976a4f0e7d7cda
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=20454b53ee94f0f95c2d7b175fc6a425
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=750c21e32dbeae16db577c6e279f201e
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../..@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=a0e2ccbb6be7d796e039c6eef2de4376
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=b01f4607f71c14ff21c5ea228077763e
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "SelectFromDB"
+          - Name: InputArguments
+            Id: g=7ee83f47f671ba0b7deb2f1b48a446ef
+            Type: BaseObjectType
+            Children:
+            - Name: RecipeName
+              Id: g=a63aaea20bf5ce238a31bafde56d0d88
+              Type: BaseDataVariableType
+              DataType: String
+              Children:
+              - Name: DynamicLink
+                Id: g=a1420fa906c2f6b23f143f9a84c6bdb9
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../RecipeName"
+                Children:
+                - Name: Mode
+                  Id: g=2a137ec2fa6e0721b305efe37fbb3d94
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  Value: 2
+            - Name: ErrorPolicy
+              Id: g=056503f4abe828ea1e83c693fac16083
+              Type: BaseDataVariableType
+              DataType: CopyErrorPolicy
+              Children:
+              - Name: DynamicLink
+                Id: g=1a440af718fec28e07f2319c8475ef7c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../ErrorPolicy"
+                Children:
+                - Name: Mode
+                  Id: g=4d1afa75ca5a55fe021f61ca0bbfc68b
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  Value: 2
+      - Name: EventArguments
+        Id: g=b64b78caf4868d1d2c051056eafbf2e1
+        Type: VariableTransitionEvent
+        Children:
+        - Name: VariableNodeId
+          Id: g=4b24fb8629ed320fb471bc6fa7bd0baf
+          Type: BaseVariableType
+          DataType: NodeId
+        - Name: NewValue
+          Id: g=d775d7c8fc6bc1c18b75884568151080
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: OldValue
+          Id: g=7bf27108a67976cf90fae86a61596bef
+          Type: BaseVariableType
+          DataType: BaseDataType
+        - Name: EventId
+          Id: g=d80549d89e2fafd9ee1336f043040885
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=1c85e4bbab1764592397313783ed0cda
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=4bd1599aa58dbfe1cf08287d885ef9d2
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=3f2628502fcc50a51f4df9b37511e015
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=56c9d65e5ef5381ba93d02c1c69ad9d3
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=cbc0054708fd04338a5d2d3a4dd2a50c
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=15bbf1d8a3a3cfd5a7a2a0f658332894
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=d1c88164650d5255753ff03ade4a54de
+          Type: PropertyType
+          DataType: UInt16
+  - Name: RecipeControllerCreatedAndSaved
+    Id: g=1d76c3f4bfcd2202718f8faea66f8211
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipeControllerCreatedAndSaved"}
+  - Name: RecipeControllerDeleted
+    Id: g=af44230975f0cd435d0c3cfb1e0747eb
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipeControllerDeleted"}
+  - Name: RecipeControllerEmptyRecipeName
+    Id: g=df6432163ab1fa4d5482b116dc858e16
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipeControllerEmptyRecipeName"}
+  - Name: RecipeControllerRecipe
+    Id: g=0e197cbbd93267205a4b452923bc9eef
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipeControllerRecipe"}
+  - Name: RecipeControllerRecipeApplied
+    Id: g=9e1a1d75f0a72aa38d4c4d45650d2b61
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipeControllerRecipeApplied"}
+  - Name: RecipeControllerRecipeLoaded
+    Id: g=51e924499918a9691a133291c67f95f9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipeControllerRecipeLoaded"}
+  - Name: RecipeControllerSaved
+    Id: g=39bbd7af1f43453fbf08d6713cf40800
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipeControllerSaved"}
+  - Name: RecipesEditorRecipeSchemaNotFound
+    Id: g=d6fc3624b43e3f3c5a3cdfca6abb786f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorRecipeSchemaNotFound"}
+  - Name: RecipesEditorRecipeSchemaNotSet
+    Id: g=0291b98182f45a32d88d9570e4cf2d81
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorRecipeSchemaNotSet"}
+  - Name: RecipesEditorRecipeNotFound
+    Id: g=727c68da0815a1970169d52daad290e4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorRecipeNotFound"}
+  - Name: RecipesEditorNotARecipe
+    Id: g=1d00d92766038d2c4f796569bbd101c9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorNotARecipe"}
+  - Name: RecipesEditorStoreOfSchema
+    Id: g=393844b693901aaf36d5b82b128b499b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorStoreOfSchema"}
+  - Name: RecipesEditorNotSet
+    Id: g=3a69c42df774db532892328f38823c68
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorNotSet"}
+  - Name: RecipesEditorStore
+    Id: g=14240f0e87fa110e72f35f31f25c17d4
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorStore"}
+  - Name: RecipesEditorNotFound
+    Id: g=62dcbb391471ea201559f6f0c833b623
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorNotFound"}
+  - Name: RecipesEditorNotAStore
+    Id: g=946e91971b18522458561f4f3bac32d6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorNotAStore"}
+  - Name: RecipesEditorEditModelOfSchema
+    Id: g=362978c0bafa3ea9d2ab3f275e85348e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    AccessLevel: Read
+    Value: {"NamespaceIndex":7,"TextId":"RecipesEditorEditModelOfSchema"}
