@@ -32,6 +32,16 @@ public class RuntimeNetLogic2 : BaseNetLogic
 
     [ExportMethod]
     public void ChangeColor(){
-        ((Rectangle)Owner).FillColor = Colors.Azure;
+        ((Rectangle)Owner).FillColor = Colors.Lime;
+        var led = Owner.Owner.Get<Led>("LED1");
+        led.Color = Colors.Lime;
+    }
+
+    [ExportMethod]
+    public void ChangeColorGoodPractice(){
+        ((Rectangle)Owner).FillColor = Colors.Lime;
+        var ledNodeId = LogicObject.GetVariable("LedToUpdate").Value;
+        var led = InformationModel.Get<Led>(ledNodeId);
+        led.Color = Colors.Lime;
     }
 }

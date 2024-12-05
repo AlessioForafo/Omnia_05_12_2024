@@ -102,6 +102,6 @@ Children:
     DataType: Byte
     Value: 180
   - Class: Method
-    Name: Method1
-    Id: g=f8646240ccafa3c006740d5c46f989c4
+    Name: GenerateMyAlarms
+    Id: g=492acb0d933cfb32f721323be02f83e4
 - File: MyNetLogics/MyNetLogics.yaml

@@ -15,5 +15,5 @@
   <PropertyGroup>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
-  <Import Project="Omnia_05_12_2024.references"/>
+  <Import Project="Omnia_05_12_2024.references" />
 </Project>

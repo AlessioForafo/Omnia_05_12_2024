@@ -3215,13 +3215,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 300.0
+      Value: 260.0
     - Name: TopMargin
       Id: g=4e8bb3a012fe595259817a27ff7b314f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 40.0
     - Name: FillColor
       Id: g=e5bece048b8489b91abb67e0a8609021
       Type: BaseDataVariableType
@@ -3241,6 +3241,9 @@ Children:
       - Class: Method
         Name: ChangeColor
         Id: g=88d9eec2dd76682e87a796306b1751c6
+      - Class: Method
+        Name: ChangeColorGoodPractice
+        Id: g=bcf2d51a423f6eff5b707a765c13e8c9
     - Name: MouseDownEventHandler1
       Id: g=3e239fd643eeb2e477950d10ee692e9c
       Type: EventHandler
@@ -3321,6 +3324,34 @@ Children:
           Id: g=6a6d6f675fe4326988a6b7880f303d59
           Type: PropertyType
           DataType: UInt16
+  - Name: Label1
+    Id: g=de3a18090f2231eab6a2aba8c530f080
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=2a3416db951d7b050f2edae5b31cf56f
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"bad practice"}
+    - Name: LeftMargin
+      Id: g=fdf83c0affc5c5c1a75c135e8b1fc032
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 84.0
+    - Name: TopMargin
+      Id: g=84edba7628ff1efafa62ecf9fd0b4e91
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 76.0
+    - Name: FontSize
+      Id: g=dc9fdcbb68ec015db2f9061278c4092b
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
   - Name: LED1
     Id: g=c10966437a6534534929e23f64434113
     Type: Led
@@ -3346,13 +3377,964 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 610.0
+      Value: 640.0
     - Name: TopMargin
       Id: g=8edfc62021a20159a4c8173b41ae2d8d
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 140.0
+  - Name: Rectangle2
+    Id: g=cc2e5662ce33d95d0a5f9f195d3e40e8
+    Type: Rectangle
+    Children:
+    - Name: BorderThickness
+      Id: g=e6e58366a0148c5da4ea0054c34f81a9
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: Width
+      Id: g=38f06108350489f2b33cbb573909ef2b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 280.0
+    - Name: Height
+      Id: g=e2695ef1178bf0460dc3f89c3dca3c41
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 140.0
+    - Name: LeftMargin
+      Id: g=890d7ef0acf6a6cb729427c791f1d4a8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 260.0
+    - Name: TopMargin
+      Id: g=6fa85a965cfc5908195137bca924f019
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 240.0
+    - Name: FillColor
+      Id: g=573ac144f2827707aae8cb1fbc30b95a
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#d3d3d3"
+    - Name: HitTestVisible
+      Id: g=263b1da181f127f70820de92f99589cd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: RuntimeNetLogic2
+      Id: g=06ed9a9af5d17bd5674a323337e21604
+      Type: NetLogic
+      Children:
+      - Class: Method
+        Name: ChangeColor
+        Id: g=9af13f4135edc10694a9ed456cf604ca
+      - Name: LedToUpdate
+        Id: g=b337267cf4c43967536430e1bf73f281
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Children:
+        - Name: DynamicLink
+          Id: g=e61a8b3dfa9aeb69fe0a1c090ef71803
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../LED4@NodeId"
+          Children:
+          - Name: Mode
+            Id: g=d2f89d330b804266cf722a13ada2172a
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Class: Method
+        Name: ChangeColorGoodPractice
+        Id: g=287a67b722b0a40289175ad897ab0867
+    - Name: MouseDownEventHandler1
+      Id: g=20eeea5e810adde98960d9cd140cbbe5
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=b64c354154a7a8f9af779057a1e52a9b
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
+      - Name: MethodsToCall
+        Id: g=7944446dc4ff5d54069e6569b738589f
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=389f8e39c034796fba133a274fad1380
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=8b0be0b3a6ce68c32185b4c067306e3c
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Id: g=057d28a2fb5e0aadb48b3451f013829d
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Id: g=e83a8e4249bcbf677a869640ed04cc23
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../RuntimeNetLogic2@NodeId"
+              Children:
+              - Name: Mode
+                Id: g=5a6542119a3652bec63d9ac4122fdc6a
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: ns=2;Method
+            Id: g=bd8532fa5c8f4ac760c2b12105ca94d6
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ChangeColorGoodPractice"
+      - Name: EventArguments
+        Id: g=53dcba3848519b874eb8d882bdd51c88
+        Type: MouseDownEvent
+        Children:
+        - Name: EventId
+          Id: g=d406e20774fabbfd8daf9da80b24bddf
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=0275ee0f613fb17953dc9a15a76afb4d
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=272989529281f8d47fca4ef942c76b85
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=7a6b5b0e1e024b1eef1f7fe42f7bcdc8
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=951bfd19b02f88291f2c705b0f86565f
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=4d035ea3bab4cc53e0b559fdfc1b831c
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=6307825ea6b1c206ade8c6ce6d654c3f
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=ef40f72adea6670d2a7debcde9c34e27
+          Type: PropertyType
+          DataType: UInt16
+  - Name: Label2
+    Id: g=6b617f071fb84af575617eea6d95d0e6
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=c861f28419a9421cf3a1c2b980f182f5
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"good practice"}
+    - Name: LeftMargin
+      Id: g=601380b643eaad0d7c6962b4c1984455
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: TopMargin
+      Id: g=e17792e9a182259b6defa6e58ce62901
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 290.0
+    - Name: FontSize
+      Id: g=7295f2af575ac5a2770c26c0898a0605
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+  - Name: LED2
+    Id: g=a5fba9828da4d4578e6f5e66cdf10db6
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=9fabcdf884776831ca1c81b62cf8ba38
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Id: g=b22240894326e8c208f68c9abba70c53
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=186fc06979239e0f7cdcf0652843c4f5
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Id: g=a16615b31efd662c4025f99dc10fa71c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 580.0
+    - Name: TopMargin
+      Id: g=427241fde96550412d98f6648a82b2ea
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 360.0
+  - Name: LED3
+    Id: g=aac82c996bd603638364b61b3ca145b3
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=b00aeecc8f9995c0ded03455aa7155a1
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Id: g=5538f0c9277810d011e72724f1104b24
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=87fc74ced9601bedf1da9ddf017e972d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Id: g=2ebbe249426ac8af88b131cd01ac21f8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 520.0
+    - Name: TopMargin
+      Id: g=46dd122861b9204185f8f51d23a176fd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+  - Name: LED4
+    Id: g=cb5dbd43f10bdb0930a904b184918a17
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=4e76fb0c8d35ec26a10cdb2d6d4952bd
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Id: g=1e9abf7eb775202117406d6f1b01813e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=b7b3abc3889f06a371e99dccd3f5b776
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Id: g=a21a7ffc82ea5103bfb47d04b322fa83
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 580.0
+    - Name: TopMargin
+      Id: g=f361181074a841baf80fd3511f240187
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 430.0
+  - Name: MotorWidget1
+    Id: g=f62b0db5d64ed2c7aae42f9ac6cf7c51
+    Type: MotorWidget
+    Children:
+    - Name: InverterBrakeAC1
+      Id: g=f196f1487fa9f411ffa2f98401e2297a
+      Type: ScaleLayout
+      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+      Children:
+      - Name: FillColor
+        Id: g=c9b6e894cd8159d07c53fe5124a8a116
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#006092"
+      - Name: Inverter_x5F_Break_x5F_Outline
+        Id: g=f3363405058e9189c97ecc9a4d905fde
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=aa46d857c4c514bffcf91b78a457b141
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=7;%PROJECTDIR%/res/Inverter_x5F_Break_x5F_Outline.svg"
+      - Name: Fill_Color
+        Id: g=c0b4adb51d0630c6ef8e607922e5bad7
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=c91734c7bc89f6d627993d343203741e
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=7;%PROJECTDIR%/res/CM227InverterBrakeAC_Fill_Color.svg"
+        - Name: DynamicColor
+          Id: g=24d55d1c0ccb4f6ba8835f6fc13f6e5f
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#006092"
+          Children:
+          - Name: DynamicLink
+            Id: g=b4ff94565c327e059eea068c6d6c862b
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+      - Name: Inverter_x5F_Break_x5F_Overlay
+        Id: g=bab9f280c24369517a489f2ca07af49b
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=2d16e43b899d798ad3266a68e4f582ff
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=7;%PROJECTDIR%/res/Inverter_x5F_Break_x5F_Overlay.svg"
+    - Name: MotorLogic
+      Id: g=e41e2afca67e331ec1b43d8eef49111a
+      Type: NetLogic
+      Children:
+      - Name: CheckTemp
+        Id: g=55c157c77822b17f07322ead2c3c811d
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Id: g=54eb4733af7a0345488128741fc1a92d
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../CheckTemp"
+      - Name: ActualTemp
+        Id: g=b854b93c6b0b02e2643504eb49e8f72f
+        Type: BaseDataVariableType
+        DataType: Int32
+        Children:
+        - Name: DynamicLink
+          Id: g=ff0702dc23cfce1937805a9c911fa51a
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../LinearGauge1/Value"
+      - Name: CheckTempTransitioned
+        Id: g=e9eb01ae729778f8de012be799de9721
+        Type: VariableTransitionEventDispatcher
+        Children:
+        - Name: Value
+          Id: g=72b921c6ae5c040a58205726752e53b6
+          Type: BaseVariableType
+          DataType: Double
+          Value: 1.0
+        - Name: Transition
+          Id: g=52d4086b1b7518edcd38219ec215434c
+          Type: BaseVariableType
+          DataType: VariableTransition
+        - Name: VariableNodePath
+          Id: g=2bc944527bf6a1af816af677c6fac4ea
+          Type: BaseVariableType
+          DataType: NodePath
+          Value: "../CheckTemp"
+        - Name: VariableTransitionEventHandler1
+          Id: g=577178dd7e9f8a91b918d07d386a9890
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Id: g=47f241de0928c7f1bb20699532992690
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+          - Name: MethodsToCall
+            Id: g=2f27d63f4a6c15d5d9c435d51c805ff7
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Id: g=a21db8a4674347582bbd923df65663a0
+              Type: BaseObjectType
+              Children:
+              - Name: ObjectPointer
+                Id: g=7d1516c5d4bc3d259c747e90af5041e3
+                Type: NodePointer
+                DataType: NodeId
+                Children:
+                - Name: Kind
+                  Id: g=6187eb4267b8eedd0903ab729cc21fcc
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: DynamicLink
+                  Id: g=8e9914b31af3d269174734078257043b
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../..@NodeId"
+              - Name: Method
+                Id: g=67a6877139ecc1018332379757f6de81
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "StartCheckTemp"
+          - Name: EventArguments
+            Id: g=1f86c3c9fbb8181f2ad920d8cfced23c
+            Type: VariableTransitionEvent
+            Children:
+            - Name: VariableNodeId
+              Id: g=a7d12cb6a9749d0fc30ea94fdbe80b95
+              Type: BaseVariableType
+              DataType: NodeId
+            - Name: NewValue
+              Id: g=81d17ebe8beeefb197f92c0b1c4dbdf7
+              Type: BaseVariableType
+              DataType: BaseDataType
+            - Name: OldValue
+              Id: g=012e36464905f831ced0c65ad4c84b85
+              Type: BaseVariableType
+              DataType: BaseDataType
+            - Name: EventId
+              Id: g=c2cd88958b92ba0a1797f2fa920c88c6
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Id: g=4f7a8336d20ee475eb88a197aae3217d
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Id: g=57f87f21030a082dc0597348ba837bd4
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Id: g=d5bc1af37a6857218a739c76eba4440e
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Id: g=ea1a8a5cb5484e0d152abc84d55f382e
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Id: g=e027ba0e4f59f975a5b1dbdce8aa2071
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Id: g=599435bbe171025b149f623d180bc5ce
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Id: g=7b69079eb98cb9641fe942f9966c88bb
+              Type: PropertyType
+              DataType: UInt16
+      - Class: Reference
+        Target: g=5447d331feea3a6a1e413ab4de3806c7
+        Direction: Forward
+      - Class: Reference
+        Target: g=2a9261aac2ec107b7ba60b5ed266ec76
+        Direction: Forward
+      - Name: CheckTempTransitioned1
+        Id: g=8c1417694c9e29178cadc961c5edc28f
+        Type: VariableTransitionEventDispatcher
+        Children:
+        - Name: Value
+          Id: g=ad32cae158b1b8c70c4be4db10b2328c
+          Type: BaseVariableType
+          DataType: Double
+        - Name: Transition
+          Id: g=4fc6db679f0c6139ab39ccc997d38b77
+          Type: BaseVariableType
+          DataType: VariableTransition
+        - Name: VariableNodePath
+          Id: g=6b5beaf8acbd9909b890d5ffe55f9dc4
+          Type: BaseVariableType
+          DataType: NodePath
+          Value: "../CheckTemp"
+        - Name: VariableTransitionEventHandler1
+          Id: g=46ea9dff0470c918fd64f94c729e8fc7
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Id: g=f8353860db6881adefba2553295eb296
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+          - Name: MethodsToCall
+            Id: g=283a7875158bec039261a2273077189a
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Id: g=1a9381e788f4f9758acdaa49cf2c5b8e
+              Type: BaseObjectType
+              Children:
+              - Name: ObjectPointer
+                Id: g=54bb5d0bdc167afbe5b819f08852bb19
+                Type: NodePointer
+                DataType: NodeId
+                Children:
+                - Name: Kind
+                  Id: g=127e3ba402abdf8e0ba69be29a6d8fc6
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: DynamicLink
+                  Id: g=4c4a3559b954952f5a5191ab6e203c75
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../..@NodeId"
+              - Name: Method
+                Id: g=f3b70e51f352b865ff63ff393ce74d0e
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "StopCheckTemp"
+          - Name: EventArguments
+            Id: g=74ce55e3dd53202e4b33af19b1267335
+            Type: VariableTransitionEvent
+            Children:
+            - Name: VariableNodeId
+              Id: g=ca001b07173e87833b30ac18ec571b4a
+              Type: BaseVariableType
+              DataType: NodeId
+            - Name: NewValue
+              Id: g=e3691f03db0bdfa56fe140a2641c345b
+              Type: BaseVariableType
+              DataType: BaseDataType
+            - Name: OldValue
+              Id: g=a0bb2765ab5328d4f6fa163f38838d80
+              Type: BaseVariableType
+              DataType: BaseDataType
+            - Name: EventId
+              Id: g=62e5e6b8cd2c00b60b796d40344c0052
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Id: g=121a88fbbf299eed1782ffed3f61793e
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Id: g=6ef08bffc1f723e1cb55187f9bfd205d
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Id: g=9e0672a06a175aba51eabfe3a40abb94
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Id: g=8d6cd9fc1d5aa1f114e3893d0821707c
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Id: g=352597cbcad4a4625819832a41094845
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Id: g=2fd31e0b261a991f09ddeeee2b0d4941
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Id: g=bd71edaa657460ebfdff74463da75dfc
+              Type: PropertyType
+              DataType: UInt16
+    - Name: CheckTemp
+      Id: g=e505c08a662aa51590f3aad4233748af
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: LinearGauge1
+      Id: g=4eb28e16779558b84f5b740512cdad77
+      Type: LinearGauge
+      Children:
+      - Name: Value
+        Id: g=7ad1e1a78daaab50ada9d7a82eda1018
+        Type: BaseDataVariableType
+        DataType: Float
+      - Name: MinValue
+        Id: g=393b789d8231101018d45aa22a6eb1c0
+        Type: BaseDataVariableType
+        DataType: Float
+      - Name: MaxValue
+        Id: g=3ea9407497dc8006b76358be2a98a4dd
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Id: g=47f799e847fbbb479f182b54ae9465e3
+        Type: BaseObjectType
+    - Name: LeftMargin
+      Id: g=e63986fddc4c079de61a058c36a12a9c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 840.0
+    - Name: TopMargin
+      Id: g=7406b8827d3527ac46fdf4bd16d53ab3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: Switch1
+      Id: g=ac138bab9d856df34faa17c9312c5d9e
+      Type: Switch
+      Children:
+      - Name: Checked
+        Id: g=809e07d2c0f04061ad1eb75c1be06bd2
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Id: g=a4460932c205b39702ce31b902495549
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../CheckTemp"
+  - Name: MotorWidget2
+    Id: g=a2854cd6204bc588523fd55516522a07
+    Type: MotorWidget
+    Children:
+    - Name: InverterBrakeAC1
+      Id: g=88ed8ba7f485627d0c52fd950fd1649c
+      Type: ScaleLayout
+      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+      Children:
+      - Name: FillColor
+        Id: g=fdd4b86da30eabc14468882d2e40040d
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#006092"
+      - Name: Inverter_x5F_Break_x5F_Outline
+        Id: g=e52fac24dcc02d74ad124c6af2e24d5b
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=dcd241245c9e0fea710b62ae59908032
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=7;%PROJECTDIR%/res/Inverter_x5F_Break_x5F_Outline.svg"
+      - Name: Fill_Color
+        Id: g=29c5715d9487ee5217ba8c4203bbb68d
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=d9ac3261a82dfe88ee5519fc8a80a504
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=7;%PROJECTDIR%/res/CM227InverterBrakeAC_Fill_Color.svg"
+        - Name: DynamicColor
+          Id: g=52be9e445e6b973c3c573ff53abeb86b
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#006092"
+          Children:
+          - Name: DynamicLink
+            Id: g=b256845c5645f6c423c05b20ab202694
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+      - Name: Inverter_x5F_Break_x5F_Overlay
+        Id: g=cc94d1ef6cfcdb1415e074e3d0d1c4c6
+        Type: Image
+        Children:
+        - Name: Path
+          Id: g=059ef3584b6fc53a70acbb338dcd9f09
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=7;%PROJECTDIR%/res/Inverter_x5F_Break_x5F_Overlay.svg"
+    - Name: MotorLogic
+      Id: g=e8ee44b959a2d4262d57d7e301c44e8d
+      Type: NetLogic
+      Children:
+      - Name: CheckTemp
+        Id: g=4f56ccc4c2fa44042dfef2b2827b2db4
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Id: g=9de7b3178a4aca75c7c8768187e60c7a
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../CheckTemp"
+      - Name: ActualTemp
+        Id: g=e7da3ba1cff5d548846f09487d1ffcb6
+        Type: BaseDataVariableType
+        DataType: Int32
+        Children:
+        - Name: DynamicLink
+          Id: g=1223fc5f806d37cb9989c86200d091bb
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../LinearGauge1/Value"
+      - Name: CheckTempTransitioned
+        Id: g=0519139ed93c0c62fd3c1ed944c8f75f
+        Type: VariableTransitionEventDispatcher
+        Children:
+        - Name: Value
+          Id: g=c25742654f100c30f2252667558dc667
+          Type: BaseVariableType
+          DataType: Double
+          Value: 1.0
+        - Name: Transition
+          Id: g=4185cc5fe8fecd7194aab315038db8ec
+          Type: BaseVariableType
+          DataType: VariableTransition
+        - Name: VariableNodePath
+          Id: g=50eb9da6d8e13f5317cc28b663197024
+          Type: BaseVariableType
+          DataType: NodePath
+          Value: "../CheckTemp"
+        - Name: VariableTransitionEventHandler1
+          Id: g=d91fa142e3590244eb90214a624638f5
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Id: g=0cbf373f5d6b1382aa85b7248a6383a0
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+          - Name: MethodsToCall
+            Id: g=b040200794f8766cf7089647d84c2da7
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Id: g=b0e9d1d2df26208375c30668d89873ce
+              Type: BaseObjectType
+              Children:
+              - Name: ObjectPointer
+                Id: g=a5d6d1f979318c981060a861cd0298bb
+                Type: NodePointer
+                DataType: NodeId
+                Children:
+                - Name: Kind
+                  Id: g=3040e511b09d8146f3cc386f027337a2
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: DynamicLink
+                  Id: g=425351c9eae96866fd6bba65b630f7cd
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../..@NodeId"
+              - Name: Method
+                Id: g=7f8502baa8f74269eafdce8ffe9230ac
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "StartCheckTemp"
+          - Name: EventArguments
+            Id: g=c250e789d9c9e07429c32dfb668b7d82
+            Type: VariableTransitionEvent
+            Children:
+            - Name: VariableNodeId
+              Id: g=1e699f890aeaaf4da8dafbcd1c5a67b0
+              Type: BaseVariableType
+              DataType: NodeId
+            - Name: NewValue
+              Id: g=892b7d1d4e424cfb310ad758469f9904
+              Type: BaseVariableType
+              DataType: BaseDataType
+            - Name: OldValue
+              Id: g=d56907e8c3e8b09eec3be19b1509c5ec
+              Type: BaseVariableType
+              DataType: BaseDataType
+            - Name: EventId
+              Id: g=9e599793f050c9b6285c26413040963d
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Id: g=ed9690032edd28ee81e261e67e9dbcd8
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Id: g=6c8be094027ff42e2fb73582c122d05a
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Id: g=97cc51369f8d134db2ccc417927a0ae1
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Id: g=32c74a7482003efa7c6a9f468ae7ba17
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Id: g=fcf6afcc0f700f22edb428ea1d7506ad
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Id: g=4331ea18537c7ebe64f57e6b434631ea
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Id: g=b97a173c652d2b2597b97a83ad8ac7ee
+              Type: PropertyType
+              DataType: UInt16
+      - Class: Reference
+        Target: g=5447d331feea3a6a1e413ab4de3806c7
+        Direction: Forward
+      - Class: Reference
+        Target: g=2a9261aac2ec107b7ba60b5ed266ec76
+        Direction: Forward
+      - Name: CheckTempTransitioned1
+        Id: g=74de32ef1e99ea8267a1278800012606
+        Type: VariableTransitionEventDispatcher
+        Children:
+        - Name: Value
+          Id: g=4cbfd45299609372e78b4f3e39f6e1cb
+          Type: BaseVariableType
+          DataType: Double
+        - Name: Transition
+          Id: g=380038c372e5960ff96434972e61e91b
+          Type: BaseVariableType
+          DataType: VariableTransition
+        - Name: VariableNodePath
+          Id: g=41129f37a8e80089938a5966f65e47f5
+          Type: BaseVariableType
+          DataType: NodePath
+          Value: "../CheckTemp"
+        - Name: VariableTransitionEventHandler1
+          Id: g=368c51d744d8e988dbaad3a0670ee5f5
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Id: g=c76f0ad648e47cd27d86139657e15256
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+          - Name: MethodsToCall
+            Id: g=6d7606bf81c29d4fbf66ca4d41a4a7cb
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Id: g=0bb93beb9c5b5927a2e8432f7230f2ae
+              Type: BaseObjectType
+              Children:
+              - Name: ObjectPointer
+                Id: g=369e790e8c28e09810acf6ac52581e6b
+                Type: NodePointer
+                DataType: NodeId
+                Children:
+                - Name: Kind
+                  Id: g=ca921de69a1cf8b40562a620d54281f4
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: DynamicLink
+                  Id: g=1f123323b6ae45c866bbdc140dcbac53
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../..@NodeId"
+              - Name: Method
+                Id: g=92a59b12e9b38df179bb8085f4ab3bc0
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "StopCheckTemp"
+          - Name: EventArguments
+            Id: g=0896f6c940ed2378ceb19611c3dd5880
+            Type: VariableTransitionEvent
+            Children:
+            - Name: VariableNodeId
+              Id: g=be096ea00292a429689deaa7247c3342
+              Type: BaseVariableType
+              DataType: NodeId
+            - Name: NewValue
+              Id: g=27cc6347d2c9237f87fb250e25d05e38
+              Type: BaseVariableType
+              DataType: BaseDataType
+            - Name: OldValue
+              Id: g=27e4dce09c6051dfeae16172d82d23f5
+              Type: BaseVariableType
+              DataType: BaseDataType
+            - Name: EventId
+              Id: g=b63147ad0f354428820d64f611dfda4b
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Id: g=171a8a5cae96c84f44ea7c1df578c002
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Id: g=9481ba1d9916750260595db54cd81235
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Id: g=361b3edf463ec65ab200ba9cf2cd2b5e
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Id: g=ee94f878ccda1487cda437c349bcf0ca
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Id: g=a53b158dba6d4e4a26796f2eff46e29a
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Id: g=8165b88fa561723f2eb515d207c354ea
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Id: g=d28ce90ec3d34b3ca279620e35e4e015
+              Type: PropertyType
+              DataType: UInt16
+    - Name: CheckTemp
+      Id: g=12e10ecd739a686f7b455b485052c8f2
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: LinearGauge1
+      Id: g=10eddb79e4a2f1176db97fec06f2ab1a
+      Type: LinearGauge
+      Children:
+      - Name: Value
+        Id: g=8f9e8b7f46f984b1da0e2e60bb29aef5
+        Type: BaseDataVariableType
+        DataType: Float
+      - Name: MinValue
+        Id: g=d2b6900a9dc60d08dccbbbe418e19033
+        Type: BaseDataVariableType
+        DataType: Float
+      - Name: MaxValue
+        Id: g=e6653909a537fe8fafd8205cc23b6006
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Id: g=208d2ef3540201b152198a973bf5b18b
+        Type: BaseObjectType
+    - Name: LeftMargin
+      Id: g=dc524c608d5a19034b6c3c357f5b662f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 840.0
+    - Name: TopMargin
+      Id: g=0b412fb424791f0374df467bbd758ca5
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 360.0
+    - Name: Switch1
+      Id: g=469059eea6264f16737268341505e35b
+      Type: Switch
+      Children:
+      - Name: Checked
+        Id: g=af14678970c70c39b2d819f40c35be74
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Id: g=ad0ac4b9e7cf5371db1a4c0135404eb2
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../CheckTemp"
 - Name: Screen3
   Id: g=09f10161661c04722504d472a1e328c3
   Supertype: Screen

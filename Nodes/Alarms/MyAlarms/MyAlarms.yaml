@@ -1,0 +1,6304 @@
+Name: MyAlarms
+Id: g=527eaedf38aa4fb294e687b80caef078
+Type: FolderType
+Children:
+- Name: MyDAL_0
+  Id: g=f0de8e85f2e645219f7f03d85f38a8aa
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bd68af3bb80af95317d59f012a2a1ee4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b6685d316db90986811d6ee2b94bd857
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f0625ec4a429487db65d3762fc3971d1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=2e273d471f46430ca06848299cd0d744
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d0f3876e0307298f704bb8f07c870c3c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_1
+  Id: g=0ed4bc1ff3ea47dfa35c3f28400e9e75
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5223eb693f48c8c829dc3788848dcac4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=eb7efd296f85d60ea1793a0260842acc
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=13189ecc7f7942c3a7940a28e5323c05
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=ede174394e1d4851ac75f514dd083148
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a6cd37eead5bc18dd40f6e999b03bbe5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_2
+  Id: g=1eea1376fc1445beb2e39bf859aeaf06
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=82772c8762b9ef193702bc6c28e32e37
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ceb08078f4483a18327a0b17088fae0a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=8da88b3ff580460ab597280ec6eab967
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=d43cc1915edb4661be6e720b0df676bb
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=fbbfad8611f9b67b0cc373e2cc4d0680
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_3
+  Id: g=b0864ecdb9614cf6943af2823c7af20a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=49b238bf2f9a77c357cb58000fc00629
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6271420cbdb6835e28df1b38f3c3fec9
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0ccda3902bcf47cbaa321a4fb1e4290f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=49255bcf31294734bdbbed51be683744
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d3f6d86d5477f726c0814465980842da
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_4
+  Id: g=dbdf5815c5e746e9b78009315c3bfec3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2aad59ef214ef22061565e6bd452afae
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a5ec358de20d868e0249b73f8f9b068b
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d79a1d0fc3b744f59b8d3ae2bcf63355
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=0e7a0338d90c46e4bab97d173f97f4b7
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=90feab2e8fef8a37f7f09cacfd21b706
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_5
+  Id: g=f9b18de371c44227997325d4bb0f6c96
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=915cdaa678f4aec6a748fccefd62dd52
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9bba80121e42fd1d8d110da977277fe7
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=118634df6e4041cdb165a34c73c07480
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=70e2d4a783c14ea39704ae4112e90544
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9af5fca13a04b4eb38c0f6bd7719e74a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_6
+  Id: g=d933df7e03274d8cbc24e156920778d0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3291727c0e0112e108e73cd9c0e4c678
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=79dd80c259e5a73a1f2ab56788f917e0
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c83cdf83ccdd45d7bcdace8394e6c840
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=264036206610474abcf861f367ed4b76
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5d7fcc58ffd9986f89c55006af82dd3a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_7
+  Id: g=50f8dbad95794f1487d109f241d28230
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e48623545ea89beb19c42152c7c029f6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=45c4769860ca4f81703cc9e10bbcedeb
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=4ed41c6faa564d5d93d1e51cc1c36a85
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=b4cc4229d6ec4666aefdec954da2bb19
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=8bcb5855b5fd43986ffb725064940af9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_8
+  Id: g=7dd5219cbda54fb1a8a18a9c7da29353
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8375200951dc89636d47ddee3d85ba04
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=fd2f5fb01442ec4f5a6e7650fe3769e3
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0e83346c24314c5e81593bd37b5350fb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=5912e059301d489f891a38769d18c3ab
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=f9f437433ad0017bbf6264df94718d08
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_9
+  Id: g=5741dadc43ce40cd92c7e1b99921450d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0f24339a3b0e22c5b42bd60cdf397154
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a2c23c681a1e19e345e967a7c4f6c402
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=821690db59ec414f8953f93666b996f5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=2116096b1d7543649ef0f13876bdc5af
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=24411a51c708988d4042bf79d1816c4b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_10
+  Id: g=8cdfc235be8547dda66515a5ae31dd00
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a71e77e50354dedb64372911bee22ff8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=545adc57da0a8ecb96d5d88a3fb43b61
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=41f8978cd4ff4513af9522e5f6d5aca0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=886a46250e3b44579faa4bcb82872223
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ed3169e87eea074ae69807dd455f8390
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_11
+  Id: g=303c202d69784e21b9a26a046f2f88a4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8ac8dff901ad6f05d15b4c07593b32c6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=891a834f2fdaa0898d63fd90bd82c17d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0cfa671599b343b9a264af107ed296f1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=e2412f52874a4e9b914fceab31eb2fa3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=22cb25dfebd091d6595eb013abc308a5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_12
+  Id: g=3282c0cc56af40238fe3b3c774a92b15
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=44d813ecd21574d255cf49f783d98c97
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=906d2d8854e41f852f76ea97d656e032
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=fd49f66bf8514cfc8ec747aaa27140c7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=561ab9e501624852bde01305fe13ce0f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2fa9f6d6c3ea7b70e372cb182bd5ed52
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_13
+  Id: g=b1813756d7b642c79d9321537efece3e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=608c2cb9e1fe7df1a94e5bdea43ef65f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=218773c40f4bd4ec726b088d490a1b7d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d429774158a24d87a642885d975b92e0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=44fd547a67bf465bbee0b4a456ed93e8
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=56638e7a07de5e8a3405a18e044df518
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_14
+  Id: g=aa75a03c9c3e4926ac71c22a3751d789
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3a11d54672cb29ae2497ea693e3dc048
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=dd782d35a37dbb42fc24eb945102cf55
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=51177b5c3c9347c4919cafdac4e13adf
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=82c5799fd85c4135ab7073efcae8c98a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7766093456bee2a9a4bdfa1f2a9b4e94
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_15
+  Id: g=09765f98f617466a8413ae48eb20481b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8ca25f208686b9fb190bb1fd8298e9b5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=32f9176e9835cf1e94776b236384a286
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=ed0aa2dc6d97414e86f90e5ceef17b56
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=40002f4c31ab473fb36054a54c306867
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7628e7c7fda41dd951ef7a3a0fe08c37
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_16
+  Id: g=cb4774da94d444708baca151f3fb5855
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6ff040739b2534f515e86176822dc675
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=aaf68fc36346b3f926977158732c38b4
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=28f574d47b944ac9b08ef4bb7638e728
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=5c190f02a21e440e91ce9a11cefe7d9d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7a3803b343c117b480a9ce503715421f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_17
+  Id: g=8ba4f262b34347d6b56dee0871c85ab7
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7b246276b152675965f4501d96d8b4e3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d90e0823ff66208d520aafeefa663928
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=40dffad67127404c80a17b5e501c2b46
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=5f3cf51470c84e1096f50aa288ab8a43
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=45486e7875347dc6d270e551d9917b31
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_18
+  Id: g=6e8379f453a74459a68f74e4af332e97
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f0930ae2334fe11485a44e373710a47a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f0d9fa8efd589058f404522a3ea316c7
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f990c016f18c49a8aaee02288d2131b6
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=4eeb6d1a803a478abbf132b7f0eaba15
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e15bf9687ed265226e9c1de6f60093b3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_19
+  Id: g=45092b1e406f4cc99cf8f79c74ffa2ac
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1bcf9fd7edc3463221b41261e6503389
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a4e0adf7337ee008af0f63f764064aab
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=4491fae38f6a432599227fc14d801e11
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=73635f318fe9442fa97fb457a2225446
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b1436369b2effa576290d67884f72107
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_20
+  Id: g=4cd4847ac2e54280b0d1c4b51f43cd97
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9a835d56ea6357ee8c2e2d28b9fc6018
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f6ce1f9ca49d042163bd91ba9401725a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d52998e4a80249a295d8e1fda52bbdb2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=362fa5f0741f4292931bb6ef972346ff
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e28fc298df0b2d7e05413f30a83522ff
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_21
+  Id: g=ca98d917946a4e9abc9e3dd6ab51a9bb
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=85d188ca30784503cbce16979061fe2b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=53482db903a7c099710ab5590e899675
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c679a64b7c6c4a94bd996e1bde92db58
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=38aee98b9ef6494694d0a366af2bff16
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=fd964a7adf3534a4b50dbe31e214a561
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_22
+  Id: g=0d1a347eecb049a090c8d5859a84486b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f709cde487294701ea0dc62412f3d5b5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c1eb57dc42dcff62d0e4aff33b366a41
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=1c725d2140fe4b8aac686615c39acca5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=9a79147da2c14b419cea59ae5673293a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=331fba3c764972ede1b8d144f3f5aa7a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_23
+  Id: g=c78841f66dde451e951872011ead9ab6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b82667f3f3288c0e8e5a5ac45856c0a2
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=45928515904a5552b5f63600f3c368de
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b8f43fb81c92489e8771086a22c08239
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=359523bdbbaa4526ae17de1df3e3d101
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=04df9dd2cd52eaedd15ea569c07933dc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_24
+  Id: g=402f27d1776a429cabf2a798d4d2a659
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=278318353818f487b67574b2fffefd4a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=696ad6fa37f9700fc428ea0d4b0dbd74
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=ddfeb11b8ae848f4babb892e0a1bb36a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=72ed089a1a124581a17460531f6454b2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e86f8e697cfc5107a96bee0bbdf80c0f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_25
+  Id: g=054f3651a4b24fc3bba52bb8c0881d4d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e95c7865b8fc97ead9f93b16c3c99145
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=56d0a5a42d12f8894deae4889b1b9b01
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2546ca6db23243fbb6b59d931dc46671
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=687464ecb0e3494594536512a9db62f3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=dc121a5de944f775ab24948bddd79f7c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_26
+  Id: g=4e11c495826245c294b55c34d5b0989b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=97c8907519a8e166761b9d0a26ca9887
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b78286a019ba2b3041f80e64248075bf
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=4da1f6116b424626a6623bad8418b7de
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=604c5850e81043e9bf7d073c0757e5e5
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d92619e4c29fb11c247c7a662699e303
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_27
+  Id: g=8ab727def3c14168b333567df88777fe
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5b11d3062ae2c634caf766253cc388f7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e4785effb0b60b462052876bbee9d05c
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=817778a74f5f4a6abd4e43da70ce17bc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=4a383c05d0884c79b7fa935b6267cd51
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2407ebbcfbe8f678d96c5447c36a6606
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_28
+  Id: g=68976535b22944f38e395efa66c9211d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=25451dbd0957399454c6609f907b3a3f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=26927f1b5447a0db5cd70c7402721e11
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0d8aaeb843db4b16b23613a651e54ed4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=4595362a0a174440bf691da36e507095
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=13e430f96890f354186cc0ddae891200
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_29
+  Id: g=e3913ab53eee4be8915314a1c5db6f96
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2baa38aa09cdb583774aadd48ce7d549
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=047d92fd199f6e1785f407611fdc44a0
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=38301bf8e7f842b5b10fc5cd479fecf9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=cc2ff77b7629474997c9311c14cb53fb
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a4b1b31e3a56df3b5a4addf68692be88
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_30
+  Id: g=45532d0b6a6d43c9b7ed09fed5aee11b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b93635e48ec4abdedd6f58943d27fdce
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f529e8f97708b3c3aa86522421ad01b7
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=28aca7344a754d2f8f32f91d66183a7b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=bd641e5ced734bd3aea1033115ac9f57
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6f2eea2fbf4e4de60454b9448b01ee7d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_31
+  Id: g=c6790a4aa2e144e39e4a8b60c3c3b00d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=59e4bd15f44ff31b60030085e0cc78ee
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=577631e34bfbb76f5ef9f8d11c6206c8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=bd599ca297734992922b1cb2b9ce4e4d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=205e516e0b8144e19b257751fc882e9e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=52ea12c0a41fd053de02c99e4b9b6a44
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_32
+  Id: g=8d738b0cbc2945c3a831ed6a7e2dd652
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8db46c1c5b849dc44aa099853bb41dd4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=1fe645a243dae053b94b837a366c6ea1
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=11ef3c03278043b2afba83be62d9064f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=66473de67e904564a24d1d42d8250201
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b32e5f30ad34c21fcf839759fafd5e7e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_33
+  Id: g=6a22e680898542029a6b4f5758e38edb
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=39dc0f0c577ef4ba74040b1eae8a09af
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=020967826649b4b946cfb9524325581a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2729d94b7dd24e0bb5239725256f7e5b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=cc1ff6976dd648a58462c6f18abdbd60
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=cf5b8299bcd1d7d882de97a4387376b5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_34
+  Id: g=84404206056a4b61a0e341778aab3cbd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1d112bc9271d25e32015468fb01f6bdf
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a281a7caba5bfa801fa7f8d89e3416a9
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=401b863a2d134ed188a5bc764b9b9f4f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=c8140bfc20884126a4b17a050625c52d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=eb2cec661a320cc5dfd7a4c96e656b66
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_35
+  Id: g=8b14fbf5848946d980f811b0e93c0b57
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=01ebe96dec38f1347339fb5fa18725f3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=7d2ce067a997a26316a716c06e8e010f
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2cf0ef07671249bda6ba0249a9f6ccc3
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=f815ba51f49043bd84be525830d253e0
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9440aa78674342e86859fbfdedd683ed
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_36
+  Id: g=01683783b9eb4c93b66f933bb636b072
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8a119fe378eb695029af05f9bbc04d2d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=351c0f5f368d4b96e0a244d9bebe0737
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=849bd2e4c36e480ab2ef1395d9eb902a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=5498a00349bf4beda8ff40316b5c69a0
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=12d438f9bb8f1b24b17840e7b13c9c2a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_37
+  Id: g=0d49e6b57db44606bf95e9dfcf9c0f51
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0476323664bd7021376f5e7ff5fe913f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=5d2661a90f83f476abf896a4d9b52d01
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=4845f189a3894b528f6e4857cdfa073e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=eb3a5d5b6efd45339984d716f4cd4999
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3d9acb682f1bff469c76f6686d996568
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_38
+  Id: g=910daf897bc34173a8a060dd8152a999
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3d4930b234fc8c08248015a3dd9fc2b0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=4f8f34f56e33c097e6704b24bbf9d896
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c25166f0de2d4854bf5018ccf4ec979e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=47139c9a990b4fb5ba8b485a0a174fe1
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=52fece2502c4d0458847abec2f7acdf4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_39
+  Id: g=60be74087c4f41dc96d433028e64c033
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3b27abb74d3ace06840355b8a493e131
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a652a528eb4fa359be29227389508537
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=6a48c05b7f374ecbb48753d9af9f76dc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=b13dbf94fae148fe9ad2aabcdc8debd9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=79d9dc6076bfeffa10354f4d52c60eb2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_40
+  Id: g=57e8883f85db4b9fac9c6d6b4d3f321d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2fabd436ae6ae8cdcc8f1e4834a95119
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8f8bd4a1f197a09b53f37e3736ccf713
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=1e87c973581e42428314ab040fe283c2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=ca7d2930446c4b699643c0ee8d4d55dd
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ce549b57db180042b9b9c538c6665261
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_41
+  Id: g=7e3d40db424945cdb9cc6facb4be9544
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=724b8939961d5d1712b895b4a5e0964f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f421c34b9abf190c5c081ec62808eb7d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c59e660ab13f48ca89da34bbd284a09f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=c90812d0b7b747f1beffcb5fb4ecae8d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=107c597f461788411bfe87b9b3aefabc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_42
+  Id: g=ca3f8b9ab8704638af79726673d76157
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=744b04f521ab1d4378ac041fbca3ae6a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=bdb7a061a063c2d88385fe201e4f2365
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=abba1f91c32e4b928824b79cadd39ae2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=07f4d872ec3c41c3ac5e45c107f7fcf4
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=47a327539e1803a847c201e0cca8eddd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_43
+  Id: g=a1cc3904d9f84192abdc493b3eec92dd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1126a4e8eda474a91895ac7fa9642cf9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=2cfaaf82d3c3c24ac05b9d06908252b6
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=06dbd44d680549778b524544d810bf58
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=65b53be72885453f8ca4e221940229b9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7796c0d7d2defcd3403d22bbaee3e807
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_44
+  Id: g=4a9e8a840be34dabb82bc0dc98e55d34
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1155c1321d5b36b062617b3cc5e5eb0a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=23e2b8212983148e62b5970d907e5749
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=e4fa9cdfea43425387a7ec83e10f622f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=821be4a68fa54806b2d469b0d08a7571
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=87b15095ad67a7d321b369b087976805
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_45
+  Id: g=b8278b281c5f40519bca7d3b88d1c2c0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a927845fa94189ebe5d7b2bda7f31169
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ea177cf2c95985e2d69451f2b2390417
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=6344f1c185a84536844417362aa31ef0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=cadd5b557bec44e5ac418ad9583b7b12
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b4bfef9dfc541a00fea6be1b5886127a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_46
+  Id: g=03eae761357f471b9a77360a289ccd3c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e65a472d007a0bf06e575e7f6f26c9a0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a3da0cb42fae7acafbaaf53c62fde385
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=94677e0ec18542088d5d0e707826b5f8
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=e98b7b63ee9e49efb17ade0fef17e35d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2e4ce6660b03a3ab2efa01f69b37e045
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_47
+  Id: g=a8d8783e2da34e39bf67bf1bdea1b98a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=eeec25c092b22b7f9a0892d9dcdc1b84
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=848b0af21563f8a017ecad7551357868
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=9adee1e21f5b4e418781e76a875ed627
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=1c69b2036953493481d261c6531a392c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d82c28dcd260eda77b4f45b48e98fbf8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_48
+  Id: g=ee93c6e99b1445be85e1ddf0c3458b5c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bc3f996d94b049b573e1285cfdd8f456
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=06513269131d43cd326a031c2bf9038b
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f978f47ca0684db6a7b7c7d9397c236d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=956e139f0fda476b87b45c2fa26169c0
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=dfacb0e2fb1d8635e2ee401cc27d13c4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_49
+  Id: g=78d5a506f1d54e3484b83e433196f636
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e977ca80069b3e5ba0bc4cbbdb654463
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9b3e0e3e39149133ba935fdfa8aa33c8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=bfbc3fc311d84e06b07837a1e3388992
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=e3dbf5bad30a4357bc21064521b63c6d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b1ad7c5b7a72829cae89f7e58df88178
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_50
+  Id: g=f57c3648d48c4bd2b5d739b19c1d0447
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3c76d2df89bf8cefe0ec2dccb274f7f9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ad59851e972c1548339afa65df76b8b1
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=6751c40513aa4f7799ec5a7a93bb7986
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=9d66eeb85ffa4e3c98ee16b64fc54331
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=0103a6a0cce748e7eac59efa715fe359
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_51
+  Id: g=e52b909b5b2e412681da0fc15d3876a3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=dc16a4655bad7036c9bdcc855c920bfc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e8d25d5899bfdbf6b74ef0ecb78aceb2
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b66154561aca44268556b7514e176e99
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=27e5eafdd832405fb56dd6b6e761fbf5
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=933fb05df7e07e68523fd0800f76af46
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_52
+  Id: g=a4a4f808d5cc4607860f9f8b7dbc148b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=51b37bc2828c42b5668189178124f65d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=dc81823f6739ff0f313f74ede7ea00d7
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b4ab7839b3c44d8ba33be1bf3c9ebdad
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=d86841a113294244b29a0d26cae51feb
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3810a7f439c6c3b965dca9768017031a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_53
+  Id: g=bc7f79dbc6c449d185710b4f489faea8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=0526db6b0054f05a4cd71087e078d7b4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=2d5ded485404e4006f75ad06b345dbbf
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c4553225f3224d92823604bac2aca3aa
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=5d0b7c10b76d4608aab84e752c35632f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9fd6babdba01d7e0297492940f953abf
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_54
+  Id: g=9866d40ec55e4b1688df22f3bf22b791
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3e298af55be2c3c53def520a8fb527b5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=bf3c149cc7bfcfd30a078a7a9ee1e255
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=8cdc2ce9773249b6a0b74f19da5df918
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=9c53c320520448fe872a9c7b65937871
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e49e62fe24a0daf2e945e7cf2ead7c27
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_55
+  Id: g=ddc9ecf216a148488815ac2dba386150
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7660b4f114550870c4722d1fd0c7c9dd
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f7c32d5ca0763dfec22b0e22ede9332a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=e0356b5890ad470dac06485731574ed0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=b3743521121e4f7293d372c6b34ad42d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3c1e0d184d67a8ef21ff152ca76cd1e3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_56
+  Id: g=0f1b0403c1484f88b34b376f5ae4ee46
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a35428b1b4455a8ed46fdf6d6db20395
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=552031319e8ad1e4e2aeeed4c6dc7092
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=187cc2b0dea64861b8f24db5c2842320
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=76fd0b0c13dc4436a7503e331b3976ad
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=156cc189126de63473d0654248a662ea
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_57
+  Id: g=a526a917c12c4032ba96489c8b700ebe
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=219995f9292529d1528ce4e57d5444ca
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e36537f53e5838724ab1f05c4715f3d8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=35d3acf17a7e45ae9769bf83518f9d22
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=b79df7eb9893457e91ad0f5cd18bf87c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a214f597aedffa78e72bdb6e45303d2a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_58
+  Id: g=f1d1958a699b4984aea41caaefbc7b06
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=03cfcbfbc8f87363795040c6445e0cb8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9c5da200e2e93f89aca5039a1bdf429e
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=fb12afb8b9a84978aa02797c798bbfc4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=ad005547c9aa4655844e40e8be76f70c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=99f3fd5656eed2c258b045ce5966d48e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_59
+  Id: g=7ecce52f8c1c41c89c3bb257d626e7b9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5fc1644a4ff259d8d4ad5f26768d014b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=dfe3b99d2d9aa373256de813a58d023b
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=081eeeebd6744b4ab2e3139fcf4f3b4d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=1fd48c44b7e74a04bd0398b172ca3b72
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9baaa87435117db1b7352d19c9ab0b1f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_60
+  Id: g=5730055eeba84927823f5be091d6f559
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ba2cc823674618940db1ac25c95ae595
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=1d4e184b148cf797e487d306aa82257c
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0a5d27c2cc394158be2d070c6dd9b059
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=8485c707a20e4454bec3f4924fb7b1f9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=af592c0b289dfb93e22c21664af08f92
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_61
+  Id: g=77272d57ae814846b3d840b163e9baf8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=42994dfeceddadf3c00e6d25185bec2b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8824e1f5a1dce94730bf8492aed3015f
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=419ea23be65c4aeebdeb5c29ead8bac9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=0dc7c436eda24be390838087f6acfcc0
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a13e26b98e22a7f2a87d661dcf6a940a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_62
+  Id: g=79ef8aa44ddb446eb0101e0d81df13f2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=92ed8d78ba6d7e2d1ea1a3978eeb6816
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=77f3c7ba8046f54506b8206ac1b3e604
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d158d4449d0e4fe8afafd2cca472c1fc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=755efd9bd01f4debad3456845603ddc6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=f1958a1a061f22fb4c1cb2bb014db7d3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_63
+  Id: g=83bd03c63e22495f92bb82a113cd9f94
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=640107d4a1b354baa1cc4a4d49fc5a1d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6fb3562256b904ca2ba90fb219cd13f1
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b8bbd2d0e7984eea87b2f3c7250dceae
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=4ec6f2459fa84c1f912f2eff07a766f8
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4151864d9450c8ea92988b339bd40c24
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_64
+  Id: g=208596424880457c8439e00bfefffb2a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b48c5fe8b9081c01d6dabfd87ab535f2
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a9a972c1ee4e343fb66c7db3b7219649
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=4743dcff12b44bdcae98be7a0acf69c6
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=1f940f1418d94dab8271a5423d3e41dc
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=91105c78d362e93dee0a76d71810de4b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_65
+  Id: g=90e8897a2b64433ca2542be63ba5fdcf
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c825d99231523f526924672050501c6f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cbc1632ea00be6df2964d2f0f882beaa
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=333334d1f2ac407096efdd1a24f298b6
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=15709eb4a4424df8b29ebd9104452a64
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ba522c6ecbc39f0effe81511bbb0dc8c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_66
+  Id: g=c31fa615244347c28aec87e73126d05c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e79f5e8d7d112c3bf1e9702d512eccdb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=00faefef6fb377d6c1298e9e7497087a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=45cc99546ae2427e97c2d7522e39248c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=8379b10d975148179fc7a16d12e760ff
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ca991dc0bbadd5c99776608a6eaa29df
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_67
+  Id: g=1832883658c84821a1f22ac97a6af992
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9f7225aea8e7e2549e88dd390418ca91
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3fdc96ee0769f98a949d1bbeb7c6ab8a
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d84ba885f028419694bbce520ff93458
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=cb8c530053c949118aedaccf3625fe99
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=370d3e29b6a287d8b6794103765a6c83
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_68
+  Id: g=ebfe1d714c8b43c4bf7004e0abf0913c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e9ebc81c480b4862617e7ad0f845c435
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b52cd93cfd291d78b5b2a975b787d2b4
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c4dd2fefb20242c594c65f62ee3f4d64
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=1c801564824449b783242a04624c0ff4
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=743e4e327dbd25dc263a0bf73d2b604e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_69
+  Id: g=bf1706b168234d89879dcda97868ef28
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=bb79b23630e74aedd43e4553075380f0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=882b1c777cc1e102e02a643aaf54ec55
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f81e3e1e7e0844aeb086ee6319a8f4c9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=9ee4b78d7697404ba112951fc0b42377
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ac069e310fe9d85681a1ec044052c331
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_70
+  Id: g=83397311d930422fa97f635ebbe07ae2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6bd304a016381346b14ab259a18aaee0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6db399de348482cea50ad177b0bf552d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=29730b83220c427b94ec5386ea06bac9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=4721718443944aa881d70a79d83e8096
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e55c9c0d3672e213301b7462372239e8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_71
+  Id: g=993a2d4a5ae14e6496d067febd052bf0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b18a0a5f6dd4d2d8974c42caec607ba6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=067652a2ced1f7fbf6c9dbfeded247cc
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=60266df182914cd2b34b080921212fa0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=f1aeca4177c140899e031f768bf7b764
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=aad6a655d3f788104aa0fa3175803b28
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_72
+  Id: g=c7f8e2ec2fd74c2aa58c754d92039732
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=25adfbe164a96ef02e34be51c2ce39fe
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=cb74d4616a1e7bf0e463de1de43789df
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=e6ce464a92bb41cdb8911363c537b63f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=b0c7b1afbe294e6c8b5794a7234b53e6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e21217c20d76311066a226044120fab5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_73
+  Id: g=1a39b5753d114f4dae11d7de5ef9e351
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a1d1495beca96cf713239c9a347cc813
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=0307d636b2886f6a990d7a6a2a730640
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=57481207dfb9481194f95111e9276a79
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=a2694ca022f24578afe42d8efe608236
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=57db1c58ad0b32b6e135d46dd97b2a77
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_74
+  Id: g=212de3ad417c421f83af8fc646a38608
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=75bb2c7abec1f6c12f7284ddd3a9d003
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e1e0d3967c03a7dbe2ab5c9dc67303cc
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b18a2ea30c6149969ae0bdf96739335d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=1350739fbebb4be2a4837366f0e8ad70
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=25159632aa1eda3ee27877f384f5fb01
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_75
+  Id: g=cef186c08fb24a65b468a19d4397d1f1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c3d64ba5d5179a191747fda90b845a5b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b5ab45709d06496fbaed72dd53780a6f
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=81b40f31e5cc48b3a4084be2fb4a2092
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=d74545be4c0e41b591ac28e3ab12c29b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=aefafc89473d7f0a1949faa48064ae82
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_76
+  Id: g=37c34c3ee5234e8397d8321a748dba71
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=83bd5b0765e6ffcb885c1f8e6011f135
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a609832a1394b921bc63faecd82effb1
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=8561f41a976e41179a850c9c980e87c5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=aa05f29659114bbea068a300262b81ff
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c2d33cb0fb521c9df14c38790c30dccf
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_77
+  Id: g=48214828ec06406f901294c03139e20b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=056483f63e0a833dacbd1b0b56d99d98
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=2e73269c6a079e873b47c30fabcf9713
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=a9053cd49a434d83899b30d525a7bc2b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=b8de92a4920d47df9dc373988f5aa87e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2325e43024cd7709cb91c3370ee94197
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_78
+  Id: g=739c0357eb484e3d856b96f5b4d8ffcd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=102118e917296a1f6b2477d01edabb35
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d4cfd45ca0e0a03bb640f54841a808dd
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=6a1189b659be42e684857007398a227b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=f4fe3d22e25440b1ba70179410ca5df2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7aa51ebf19c17168a749403c2b2817da
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_79
+  Id: g=7a9d2301f52b44768d779b92f7d113bc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f455270ca7b564c094831c98829ad18d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=5e028e24afa1edac5f09b7a3ba91c2fa
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f78aa0e3768f4f2cba406ec947f4e64f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=aadfc5aad335456d839d1641604a3c2d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a524765ae9b6ce78b5009241f73f0b99
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_80
+  Id: g=a3c25e1db8484a83b14e10501bbf4c0a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=92829bd511126621b23bfd393f1a486e
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3c17892edcfd92d8d29e438bbfa10da4
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d2ed855fe0db4f4faa92c046f5249a3a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=64d19317336f4c9e8ba02fde9bc9ede6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=8ed3e8ed33b7ee92dbf5517457aed535
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_81
+  Id: g=62285a38162448bdbea6e2c24ad53e39
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3685cc9e691028fd0e6dfe7debbb96cb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=889d27a0e8981040e2ee980b0a88b237
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=a405916eb6c74826a217c62603f7a8ad
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=0923e44cec5c45dcb158be8ebe06490b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=cf81394dd5f03dec73ea5c1e0b716dca
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_82
+  Id: g=51e83fd4de89483ab3b9553470af56fd
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c515a48d542a39d1dccbc4bcb9627fc5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=af93155ec1fd9b32bf65a6a2f6f8ff1d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c62aa197774943209870bc3ab063e598
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=b2d87957ff09407fb814b89a9eb00535
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e654251683b4f4c5d3e78572a307a39b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_83
+  Id: g=07dac939b12246f09a1f8b18bea72fc2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=222cf48dcbdf1d3c63819598a8fb57a0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d135ede36143c695ddcf0bac4f242cc3
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d19898908391448eaa32966524007f61
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=c0e2eb5776e34c569eedb8d83089c041
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5904272432c3b8e1d53574aecaf5f7a8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_84
+  Id: g=5c9d19ebb9c6402b89e61a14ebc066b2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d0d6cb99f58d6d8bab5ed55bc6623cff
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=89a44860642b8b7beb5e7c58bb1e0df0
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=886aa8f17a7845bd9d4f8a7e849f1b1b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=11f6217f24e54515944dcbac39f69614
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=aeef7f2b3436e4387ce9e2ec427b0705
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_85
+  Id: g=e138ef30db1341bdaf1c17e43dfdfe93
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cda296016221079323b2739d63e2c61b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c165e8f7ad477b474823362761d79a0c
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=71410951990c40599974efec96001e67
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=d6b5f046f7174c888e3eded838dd7d12
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=02ea2b0ed9a9f4fc2d88e1ec77267d05
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_86
+  Id: g=247be30ea939406b90df1a0d49d624f6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=40b24be65d105f4df8d63bb0fa47af9d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9f0b81c37417a1385e6299b03565d147
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f44b4436471946f4a44c23bd53265800
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=6424401f2f764ae5b86108e46fa188ad
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d8890c78869bea356c5177eb7a4259eb
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_87
+  Id: g=556207f157e04754a3e44afeef44e27c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=419ddf83fa235420c84e9085583d67dc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=53e624b83e3dc474c06c4c2ac0ea14b0
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=66613885c0384291859e1071f647f7fa
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=e3d13be1679b48afa94cef6e0804322e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b8cabf6b05f366a2ddff32f461a8a551
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_88
+  Id: g=ee84858580c14049a1d954d0cb839c4f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2179bcd0bef15fca3107b2e3a74f5bc6
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ea625d2c8b38fdf9928225021a1deb0d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=951d90b961ec47e6befffd4810787a34
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=ab10862339bc4255b8d2b9375dfb88c3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4fc60b1c665a7a3fc31f5b6f062cabe4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_89
+  Id: g=10cff04b154845f9ba2864b2cddaf2f3
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1cdce709d0d64f602fd8707ae69f4ff8
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=48958465889ff23765b2f60ce0bca974
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=eca061ad53304870875175552ebf82b1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=d5be5629e04e4ebb998cf1fac6356685
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1ceb863c2aa5c68e364ac84de5e5a696
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_90
+  Id: g=737197a9ce614a34883db6b6692aa8a4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=358a54786aa01e52f356968aa15bdc7b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=46bccd81608d93c357fb418951a9dd6d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=7c491f8ac7424e8482b807c0413eeeba
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=f953972b7a2d46c8b82f44eed8a62df1
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=34d3c45ca0aa53081f8976746874605b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_91
+  Id: g=b5f75794283a433991ef4c7a7c27ea9d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=52bc03d778de64be2b43ba3c0361a82e
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=4152e211dfcee3bd1a05f01196ee4c6b
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=5b206bcbc438469db0b2a5d8f3294eb0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=ae08cb1ac8aa4df9829e4cbce1c78cb2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5d0c4d53dcee0d0ecc4d6f31967d9eb1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_92
+  Id: g=a370daceef9d4e0b9f00598f8d94f555
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3c2b1e8faf67afa68f23b0359a8663d2
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b9394c570f17155641459a48463d9c27
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=bf7e877e551c46fb92db954eb750e562
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=89235fd14e2744e19aeff48fd4092a3e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=f338a220e1fb30bd5e50c4d672aa681c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_93
+  Id: g=6a3faca9733d475e82919a2447d77fe4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=36e5d62ba2110c75a25cdf844a3fc748
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d2bd4fce1bd5229881f1364733bc4a75
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0927689bba9d41ae8c1ea2b9c330f65f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=9efc8beda9d5400492f57b7c335b87c0
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9b803768412d4282cf55eba5e4b1bcf1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_94
+  Id: g=1801407bccec43cb9026325c92d6e795
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=dd6f377f97df83506f94cf430d6033f9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=c71ea285f160fde7f6e8aab0ebbcc4ba
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=00b1fe84bfa24015899b992fa9aafd52
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=34108ef6ed854eb78529d6ad33c7fd26
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=34d6ce99bfe9f595d3667bb4cef993b7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_95
+  Id: g=1b9032b839794bd88bbe98d2c8b087d9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1b8d430d228afd6c5b8d86a2bcef1d04
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=892876f4ef5ef951b9cbaf2f24be7e77
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=699f94c04a8748a9b9043b16843024dc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=1ed0665882454e658f4420c7ccf011b3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=832bd05480c3f4dc27d0c3176e0dbb00
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_96
+  Id: g=a704db6536c14ad9b8eac0ae72f417fc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b5dc60b132d5b0e8373373878c4135b7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=929c904779ccb41d17a089f9fd199fdb
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=e3080c6c209c445dbb2742a555ce79a5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=a61f54936bff44b8b29cd84306edee0c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2dafd21d848c857b17618e1607e93047
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_97
+  Id: g=77ea0d4e63ae443d8dbec45d31e5b26e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e2d9b0ae46455c87c21447055660cb06
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a675c99e2827247396c2a9bd5dbe60d3
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=bc4556e4c23e49f7bd82c95f1ffb0eea
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=151948419b554295ba8295cbe2f17d6d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3ec63079959c83bd4d0cef41a6f905b1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_98
+  Id: g=8202e4b4080940e988447b359099635d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=32b364b2de7ead8260b53aea1f9f3537
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e66d643ad150c27ef96d8660ae3ef624
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=90410b186e2d4eb2be9e29a7b6626eb2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=e3698cb26c45442ab73183d97008a2af
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d63fb1a8b7cb7ea31062e3e9e50ce0a0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+- Name: MyDAL_99
+  Id: g=da3e250342f1456d9533ad6c292c4352
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=92ef46f4cdfb38553820ecfdcccf160e
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=03a404991efb1c953f71199d761ee716
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=cef4df71f29942639f1ab51ed7810ea2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Omnia_05_12_2024/Model/Variable1"
+      Children:
+      - Name: Mode
+        Id: g=38419b31b4af416a860040ee35bb09e6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=609b518a1fe92bbc996ec6e0644495b2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward

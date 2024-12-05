@@ -448,3 +448,4 @@ Children:
       ModellingRule: Optional
       Value: 3
 - File: Screens/Screens.yaml
+- File: Widget/Widget.yaml

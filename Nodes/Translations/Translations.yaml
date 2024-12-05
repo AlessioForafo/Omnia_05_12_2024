@@ -37,3 +37,59 @@ Children:
      "RecipesEditorEditModelOfSchema","EditModel of schema"
     ]
    }
+- Name: ImportAndExportTranslations
+  Id: g=00b981125c92703195ba4353f7bf2ba7
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=9cdc7b1a2d362059ac7842a5df3f19d9
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Id: g=3c3d1f9735595baef6f855c01b917989
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+  - Class: Method
+    Name: ExportTranslations
+    Id: g=0187236fa11b30de644c190368a5fab6
+  - Class: Method
+    Name: ImportTranslations
+    Id: g=561448b96279739ece4267144722a50d
+  - Name: CharacterSeparator
+    Id: g=c08a33b28437bd34757b2ef896641a89
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Id: g=9d755afcbb2666fe00a1d47e5d6bd442
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Id: g=ba1bd3302603438452195d5cf0cd193c
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=e32cbd1280c2b9e998da5acefb76981a
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Name: ns=4;LibraryReference
+    Id: g=7bcdeb30d8da3db44efd2163e5ab944e
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
